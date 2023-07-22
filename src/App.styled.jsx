@@ -9,7 +9,7 @@ export const Container = styled.div`
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-  @media (min-width: 480px) {   
+  @media (max-width: 480px) {   
     max-width: 480px;    
   }
 
