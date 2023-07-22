@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: 'center',
   justify-content: 'center',
   color: #2a363b,
+
 `;
 
 
@@ -13,7 +14,12 @@ export const Title = styled.h1`
   font-weight: 500,  
   justify-content: 'center',
   font-size: '35px',
-  text-align: 'center',
+  // text-align: 'center',
+
+  @media screen and (max-width: 480px) {
+  .Title {
+    width: 480px;
+  }
  
 `;
 
