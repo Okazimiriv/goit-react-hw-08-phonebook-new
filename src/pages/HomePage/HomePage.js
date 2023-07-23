@@ -11,7 +11,7 @@ export default function HomePage() {
         Welcome to Contacts App!
       </Heading>
       <Text fontSize={18} m={5}>
-        You should to register or login
+        Save your contacts online
       </Text>
     </Flex>
   );
