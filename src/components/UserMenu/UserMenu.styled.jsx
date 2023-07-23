@@ -11,6 +11,26 @@ export const Username = styled.p`
     font-size: 18px;
 `;
 
+export const Button = styled.button` 
+  margin: 0;  
+  padding: 10px;
+  border: none;   
+  background-color: transparent;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  transform: scale(1);
+  transition: transform 200ms;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  `;
+
 
 
 // .wrapper {

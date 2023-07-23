@@ -5,7 +5,8 @@ export const ContactListBlock = styled.ul`
 `;
 
 export const ContactItem = styled.li`
-  width: 450px;
+  width: 100%;
+  max-width: 380px;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -37,7 +38,7 @@ export const ContactButton = styled.button`
   }
 `;
 
-export const Button = styled.button` 
+export const ButtonDel = styled.button` 
   margin: 0;
   // margin-right: 50px;
   padding: 10px;
@@ -56,6 +57,7 @@ export const Button = styled.button`
   &:hover,
   &:focus {
     transform: scale(1.2);
+  } 
   `;
 
 export const Text = styled.p`

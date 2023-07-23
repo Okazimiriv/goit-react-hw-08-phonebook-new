@@ -1,9 +1,8 @@
 import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/authOperations';
 import { useAuth } from 'hooks/useAuth';
-import { Wrapper, Username } from './UserMenu.styled';
+import { Wrapper, Username, Button } from './UserMenu.styled';
 import { IoIosLogOut } from 'react-icons/io';
-import { Button } from 'components/ContactList/ContactList.styled';
 import { FcBusinessman } from 'react-icons/fc';
 
 export const UserMenu = () => {

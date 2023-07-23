@@ -11,7 +11,7 @@ import {
   ContactItem,
   ContactInfo,
   ContactName,
-  Button,
+  ButtonDel,
   Text,
 } from './ContactList.styled';
 
@@ -34,9 +34,12 @@ const ContactList = () => {
               <ContactInfo>
                 {name}:<ContactName>{number}</ContactName>
               </ContactInfo>
-              <Button type="button" onClick={() => dispatch(deleteContact(id))}>
+              <ButtonDel
+                type="button"
+                onClick={() => dispatch(deleteContact(id))}
+              >
                 <IoClose size={32} fill="teal" />
-              </Button>
+              </ButtonDel>
             </ContactItem>
           ))}
       </ContactListBlock>
