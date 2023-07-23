@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <Flex flexDirection="column" justifyContent="center" alignItems="center">
       <BiSolidContact size={150} fill="teal" />
-      <Heading fontSize={30} color="teal.400">
+      <Heading fontSize={30} color="teal.400" textAlign="center">
         Welcome to Contacts App!
       </Heading>
       <Text fontSize={18} m={5}>
